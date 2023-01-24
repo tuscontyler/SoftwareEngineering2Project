@@ -1,0 +1,25 @@
+- download eclipse
+- set up new java project 
+- download JDBC (http://www.mysql.com/products/connector) and select Platform Independent 
+- unzip the folder
+- drag and drop the mysql-connector-java.jar file into the project folder
+- right click on the jar file
+- select "configure build path"
+- select "libraries" tab
+- select "classpath"
+- select "add JARs"
+- select the name of the project folder
+- select the mysql-connector-java.jar file
+- select apply and close
+
+1. download the source code from the GitHub repository:
+	- https://github.com/cen3032-group-projects/semester-projects-group-3-cen3032
+	- Select "Code" (the green button)
+	- Download ZIP
+
+2. open the ZIP and copy the "src" folder
+3. replace the "src" folder in the current Eclipse project workspace with the new "src" folder you just copied
+4. open testing.java
+5. right click --> run as application
+
+after each program run, please run the test case file "DatabaseQueriesTest". this will reset the database tables
